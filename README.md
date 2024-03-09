@@ -1,7 +1,5 @@
 <h1>Tic Tac Toe Game Project Guide</h1>
 
-## Overview
-
 This project implements a simple Tic Tac Toe game in Python using object-oriented programming concepts. Players take turns marking spaces on a 3x3 grid with their respective symbols (X or 0) until one player wins or the game ends in a draw.
 
 ## How It Works
@@ -66,6 +64,7 @@ style J fill:#66c2a5,stroke:#333,stroke-width:2px;
 2. Run `python tic_tac_toe.py` in your terminal to start the game.
 3. Follow the prompts to enter player names and make moves.
 
-<h3 align="left">Languages and Tools:</h3>
+<h2 align="left">Languag</h2>
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
+</p>
