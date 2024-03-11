@@ -1,7 +1,6 @@
 <h1>Tic Tac Toe Game Project Guide</h1>
 
 This project implements a simple Tic Tac Toe game in Python using object-oriented programming concepts. Players take turns marking spaces on a 3x3 grid with their respective symbols (X or 0) until one player wins or the game ends in a draw.
-
 ## How It Works
 
 ### Game Flow
@@ -53,22 +52,30 @@ style I fill:#ff0000,stroke:#333,stroke-width:2px;
 style J fill:#66c2a5,stroke:#333,stroke-width:2px;
 ```
 
+## Playing Sound
+
+A new module has been added to the project to play sound effects when a player wins or when the game ends in a draw. The `winsound` module is utilized for this purpose. A sound file (`win.wav`) is played when a player wins, and another sound file (`draw.wav`) is played when the game ends in a draw.
+
+To use the sound effects, ensure that the appropriate sound files (`win.wav` and `draw.wav`) are present in the project directory.
+
 ## Repository Structure
 
 - `tic_tac_toe.py`: Contains the Python code for the Tic Tac Toe game.
+- `win.wav`: Sound file played when a player wins.
+- `draw.wav`: Sound file played when the game ends in a draw.
 - `README.md`: Markdown file providing an overview of the project, instructions, and usage guide.
 
 ## Usage
 
 1. Clone the repository to your local machine.
-2. Run `python tic_tac_toe.py` in your terminal to start the game.
-3. Follow the prompts to enter player names and make moves.
+2. Ensure that the sound files (`win.wav` and `draw.wav`) are present in the project directory.
+3. Run `python tic_tac_toe.py` in your terminal to start the game.
+4. Follow the prompts to enter player names and make moves.
 
-<h2 align="left">Languag</h2>
-<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-</p>
+### Language
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/asif-shahzad-833435280" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="asif-shahzad-833435280" height="30" width="40" /></a>
-</p>
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+
+## Connect with me
+
+- [LinkedIn](https://linkedin.com/in/asif-shahzad-833435280)
