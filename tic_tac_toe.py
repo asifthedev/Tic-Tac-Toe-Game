@@ -1,3 +1,5 @@
+import winsound
+
 class Board:
     """
     Represents the Tic Tac Toe game board.
@@ -138,10 +140,12 @@ class Game:
                     self.board.print_board()
 
                     if self.board.check_winner(self.current_player.type):
-                        print(f"Congrats, {self.current_player.name} you are the winner!")
+                        print(f"\033[93mCongrats\033[0m, \033[95m{self.current_player.name}\033[0m you are the winner!")
+                        winsound.PlaySound("win.wav", winsound.SND_FILENAME)
                         break
 
                     if self.board.check_draw():
+                        winsound.PlaySound("draw.wav", winsound.SND_FILENAME)
                         break
 
                     # Switch players
